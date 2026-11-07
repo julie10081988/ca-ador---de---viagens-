@@ -1,58 +1,30 @@
 name: Cacador de Viagens
-
 on:
   workflow_dispatch:
   schedule:
-    - cron: '0 12,22 * * *'
-
+    - cron: '17 12 * * *'
 permissions:
-  contents: read
-
+  contents: write
 jobs:
   monitorar:
     runs-on: ubuntu-latest
     steps:
-      - name: Baixar arquivos
-        uses: actions/checkout@v4
-
-      - name: Preparar Python
-        uses: actions/setup-python@v5
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
         with:
-          python-version: '3.11'
-
-      - name: Testar Telegram
-        if: github.event_name == 'workflow_dispatch'
+          python-version: '3.12'
+      - name: Consultar passagens e enviar alertas
         env:
-          BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
-        run: |
-          python - <<'PY'
-          import os
-          import json
-          import urllib.request
-
-          token = os.environ["BOT_TOKEN"]
-          chat_id = os.environ["CHAT_ID"]
-
-          url = f"https://api.telegram.org/bot{token}/sendMessage"
-          dados = json.dumps({
-              "chat_id": chat_id,
-              "text": "🔔 Teste concluído! Seu Caçador de Viagens está conectado ao Telegram."
-          }).encode("utf-8")
-
-          req = urllib.request.Request(
-              url,
-              data=dados,
-              headers={"Content-Type": "application/json"}
-          )
-          with urllib.request.urlopen(req, timeout=20) as resposta:
-              print("Mensagem enviada:", resposta.status)
-
-          PY
-
-      - name: Executar monitoramento
-        if: github.event_name == 'schedule'
-        env:
+          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
           TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
           TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: python monitor.py
+      - name: Salvar painel e histórico
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add offers.json seen.json
+          if ! git diff --cached --quiet; then
+            git commit -m "Atualiza tarifas consultadas e histórico de alertas"
+            git push
+          fi
