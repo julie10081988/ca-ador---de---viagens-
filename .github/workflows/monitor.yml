@@ -3,6 +3,11 @@ name: Cacador de Viagens
 
 on:
   workflow_dispatch:
+    inputs:
+      teste_telegram:
+        description: 'Enviar mensagem de teste ao Telegram?'
+        type: boolean
+        default: false
   schedule:
     - cron: '17 0,4,8,12,16,20 * * *'
 
@@ -23,10 +28,7 @@ jobs:
           python-version: '3.12'
 
       - name: Consultar passagens e enviar alertas
-        env:
-          SERPAPI_KEY: ${{ secrets.SERPAPI_KEY }}
-          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
-          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
+         TESTE_TELEGRAM: ${{ inputs.teste_telegram && '1' || '0' }}
         run: python monitor.py
 
       - name: Salvar ofertas e historico
