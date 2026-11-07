@@ -1,11 +1,11 @@
 {
-  "checked_at": "2026-11-07T08:56:56.969465+00:00",
+  "checked_at": "2026-11-07T12:57:03.106910+00:00",
   "source_connected": true,
   "last_search": {
     "destination": "Curaçao",
     "departure": "2026-12-07",
     "return": "2026-12-17",
-    "itineraries": 4
+    "itineraries": 6
   },
   "offers": []
 }
