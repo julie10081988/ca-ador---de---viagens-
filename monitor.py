@@ -132,4 +132,16 @@ def main():
 
 
 if __name__ == '__main__':
-    main()
+    if os.getenv('TESTE_TELEGRAM') == '1':
+        token = os.environ['TELEGRAM_BOT_TOKEN']
+        chat = os.environ['TELEGRAM_CHAT_ID']
+        resposta = fetch(
+            'https://api.telegram.org/bot' + token + '/sendMessage',
+            {
+                'chat_id': chat,
+                'text': '✈️ Teste do Caçador de Viagens! Telegram conectado com sucesso.'
+            }
+        )
+        print('Teste Telegram:', resposta.get('ok'))
+    else:
+        main()
