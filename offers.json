@@ -1,5 +1,76 @@
 {
-  "checked_at": "2026-11-10T20:54:56.200861+00:00",
+  "checked_at": "2026-11-11T01:16:25.991646+00:00",
   "source_connected": true,
-  "offers": []
+  "offers": [
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2026-12-12",
+      "return": "2026-12-22",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3483,
+      "currency": "BRL",
+      "airline": "Gol",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-11T01:16:25.991646+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2026-12-12",
+      "return": "2026-12-22",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3504,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-11T01:16:25.991646+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2026-12-12",
+      "return": "2026-12-22",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3742,
+      "currency": "BRL",
+      "airline": "Gol",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-11T01:16:25.991646+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2026-12-12",
+      "return": "2026-12-22",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3410,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-11T01:16:25.991646+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2026-12-12",
+      "return": "2026-12-22",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3464,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-11T01:16:25.991646+00:00"
+    }
+  ]
 }
