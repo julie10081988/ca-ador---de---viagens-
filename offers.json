@@ -1,5 +1,62 @@
 {
-  "checked_at": "2026-11-12T13:25:12.844124+00:00",
+  "checked_at": "2026-11-12T17:13:20.090798+00:00",
   "source_connected": true,
-  "offers": []
+  "offers": [
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2027-01-15",
+      "return": "2027-01-25",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3972,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-12T17:13:20.090798+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2027-01-15",
+      "return": "2027-01-25",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3987,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-12T17:13:20.090798+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2027-01-15",
+      "return": "2027-01-25",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3959,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-12T17:13:20.090798+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2027-01-15",
+      "return": "2027-01-25",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3959,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-12T17:13:20.090798+00:00"
+    }
+  ]
 }
