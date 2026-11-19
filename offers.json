@@ -1,5 +1,34 @@
 {
-  "checked_at": "2026-11-19T05:16:38.245281+00:00",
+  "checked_at": "2026-11-19T09:17:16.405856+00:00",
   "source_connected": true,
-  "offers": []
+  "offers": [
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2026-12-30",
+      "return": "2027-01-09",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3353,
+      "currency": "BRL",
+      "airline": "Gol",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-19T09:17:16.405856+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2026-12-30",
+      "return": "2027-01-09",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3788,
+      "currency": "BRL",
+      "airline": "Gol",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-19T09:17:16.405856+00:00"
+    }
+  ]
 }
