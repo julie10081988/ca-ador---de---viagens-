@@ -1,20 +1,5 @@
 {
-  "checked_at": "2026-11-19T13:28:47.169849+00:00",
+  "checked_at": "2026-11-19T17:16:17.764797+00:00",
   "source_connected": true,
-  "offers": [
-    {
-      "origin": "REC",
-      "destination": "Santiago",
-      "destination_code": "SCL",
-      "departure": "2026-12-30",
-      "return": "2027-01-09",
-      "international": true,
-      "type": "cash",
-      "price_brl": 3731,
-      "currency": "BRL",
-      "airline": "LATAM",
-      "url": "https://www.google.com/travel/flights",
-      "checked_at": "2026-11-19T13:28:47.169849+00:00"
-    }
-  ]
+  "offers": []
 }
