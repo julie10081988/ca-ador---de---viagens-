@@ -1,5 +1,20 @@
 {
-  "checked_at": "2026-11-20T20:59:41.428178+00:00",
+  "checked_at": "2026-11-21T01:23:01.307876+00:00",
   "source_connected": true,
-  "offers": []
+  "offers": [
+    {
+      "origin": "REC",
+      "destination": "Buenos Aires",
+      "destination_code": "EZE",
+      "departure": "2027-02-03",
+      "return": "2027-02-13",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3888,
+      "currency": "BRL",
+      "airline": "LATAM",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-21T01:23:01.307876+00:00"
+    }
+  ]
 }
