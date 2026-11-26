@@ -1,62 +1,90 @@
 {
-  "checked_at": "2026-11-26T01:28:50.957685+00:00",
+  "checked_at": "2026-11-26T05:22:54.633293+00:00",
   "source_connected": true,
   "offers": [
     {
       "origin": "REC",
-      "destination": "Buenos Aires",
-      "destination_code": "EZE",
+      "destination": "Santiago",
+      "destination_code": "SCL",
       "departure": "2027-05-01",
       "return": "2027-05-11",
       "international": true,
       "type": "cash",
-      "price_brl": 2136,
+      "price_brl": 2459,
       "currency": "BRL",
-      "airline": "LATAM",
+      "airline": "Aerolineas Argentinas, Gol",
       "url": "https://www.google.com/travel/flights",
-      "checked_at": "2026-11-26T01:28:50.957685+00:00"
+      "checked_at": "2026-11-26T05:22:54.633293+00:00"
     },
     {
       "origin": "REC",
-      "destination": "Buenos Aires",
-      "destination_code": "EZE",
+      "destination": "Santiago",
+      "destination_code": "SCL",
       "departure": "2027-05-01",
       "return": "2027-05-11",
       "international": true,
       "type": "cash",
-      "price_brl": 2207,
+      "price_brl": 2613,
       "currency": "BRL",
       "airline": "LATAM",
       "url": "https://www.google.com/travel/flights",
-      "checked_at": "2026-11-26T01:28:50.957685+00:00"
+      "checked_at": "2026-11-26T05:22:54.633293+00:00"
     },
     {
       "origin": "REC",
-      "destination": "Buenos Aires",
-      "destination_code": "EZE",
+      "destination": "Santiago",
+      "destination_code": "SCL",
       "departure": "2027-05-01",
       "return": "2027-05-11",
       "international": true,
       "type": "cash",
-      "price_brl": 2133,
+      "price_brl": 2642,
       "currency": "BRL",
       "airline": "LATAM",
       "url": "https://www.google.com/travel/flights",
-      "checked_at": "2026-11-26T01:28:50.957685+00:00"
+      "checked_at": "2026-11-26T05:22:54.633293+00:00"
     },
     {
       "origin": "REC",
-      "destination": "Buenos Aires",
-      "destination_code": "EZE",
+      "destination": "Santiago",
+      "destination_code": "SCL",
       "departure": "2027-05-01",
       "return": "2027-05-11",
       "international": true,
       "type": "cash",
-      "price_brl": 2601,
+      "price_brl": 2659,
+      "currency": "BRL",
+      "airline": "Aerolineas Argentinas, Gol",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-26T05:22:54.633293+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Santiago",
+      "destination_code": "SCL",
+      "departure": "2027-05-01",
+      "return": "2027-05-11",
+      "international": true,
+      "type": "cash",
+      "price_brl": 2789,
       "currency": "BRL",
       "airline": "LATAM",
       "url": "https://www.google.com/travel/flights",
-      "checked_at": "2026-11-26T01:28:50.957685+00:00"
+      "checked_at": "2026-11-26T05:22:54.633293+00:00"
+    },
+    {
+      "origin": "REC",
+      "destination": "Santiago",
+      "destination_code": "SCL",
+      "departure": "2027-05-01",
+      "return": "2027-05-11",
+      "international": true,
+      "type": "cash",
+      "price_brl": 3041,
+      "currency": "BRL",
+      "airline": "JetSMART",
+      "url": "https://www.google.com/travel/flights",
+      "checked_at": "2026-11-26T05:22:54.633293+00:00"
     }
   ]
 }
